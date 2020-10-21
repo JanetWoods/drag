@@ -1,0 +1,25 @@
+
+[data-role = "drag-drop-target"] {
+    float:left;
+    width:550px;
+    height: 450px;
+    margin: 10px;
+    padding: 10px;
+    border: 13px solid green;
+    border-radius: 4px;
+    border-width:15px;
+}
+.over{
+    background-color: #ffc;
+}
+[draggable="true"]{
+    -mos-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    border-width: 15px;
+    border-color: red;
+}
+.drag{
+    opacity: 0.25;
+}
