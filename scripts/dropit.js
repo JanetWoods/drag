@@ -28,10 +28,13 @@ var dragEnter = function(e){
  var dragOver = function(e){
      cancel(e);
      console.log('target:dragover');
- }
+ };
 var dragLeave = function(e){
     console.log('target:dragleave')
-}
+};
+var drag = function(e){
+    console.log('source: drag');
+};
 
 var dropped = function(e){
     var id;
